@@ -1,0 +1,10 @@
+
+include LICENSE
+include README.rst
+
+recursive-include django_json_editor/migrations *
+recursive-include django_json_editor/static *
+recursive-include django_json_editor/templates *
+
+global-exclude .DS_Store
+global-exclude *.pyc
