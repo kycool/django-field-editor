@@ -3,14 +3,14 @@
 from setuptools import setup
 
 setup(
-    name='django-json-editor',
+    name='django-field-editor',
     version='0.0.1',
     url='https://github.com/kycool/django-json-editor',
     author='kycool',
     author_email='kycoolcool@gmail.com',
-    description='Django json field editor.',
+    description='Django field editor.',
     license='GPL',
-    packages=['django_json_editor', 'django_json_editor.static'],
+    packages=['django_field_editor'],
     include_package_data=True,
     zip_safe=False,
 )
