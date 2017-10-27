@@ -1,2 +1,3 @@
-# django-json-editor
-Django json editor for admin
+# django-field-editor
+
+Django field editor for admin

@@ -1,6 +1,7 @@
-Django json field editor
+Django field editor
 
 =======================
 
-* Django json field widget.
+* Django field widget.
+* Django custom form field.
 
