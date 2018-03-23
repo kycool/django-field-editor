@@ -11,7 +11,7 @@ class JsonEditorWidget(Widget):
     template_name = 'json_editor.html'
 
     # 配置
-    mode = 'tree'
+    mode = 'code'
 
     # 展开
     expand_all = True

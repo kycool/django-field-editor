@@ -40,7 +40,7 @@ INSTALLED_APPS = [
 ]
 
 THIRD_PARTY_APPS = [
-    'django_json_editor',
+    'django_field_editor',
 ]
 
 SELF_APPS = [

@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 from __future__ import absolute_import, unicode_literals
 
+from django import forms
 from django.contrib import admin
 from django.contrib.postgres.fields import JSONField
 
-from django import forms
 
 from cat.models import Cat
-from django_json_editor.widgets import JsonEditorWidget
-from django_json_editor.fields import DjangoPostgersJsonField
+from django_field_editor.widgets import JsonEditorWidget
+from django_field_editor.fields import DjangoPostgersJsonField
 
 
 # Style 1
