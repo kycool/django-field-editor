@@ -41,4 +41,4 @@ class JsonEditorWidget(Widget):
                 value = json.loads(value)
             except Exception:
                 value = {}
-        return super().render(name, json.dumps(value))
+        return super(JsonEditorWidget, self).render(name, json.dumps(value))
